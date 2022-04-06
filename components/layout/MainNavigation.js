@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 import classes from './MainNavigation.module.css';
 
-function MainNavigation() {
+const MainNavigation = () => {
 
   return (
     <header className={classes.header}>
@@ -19,6 +19,6 @@ function MainNavigation() {
       </nav>
     </header>
   );
-}
+};
 
 export default MainNavigation;
