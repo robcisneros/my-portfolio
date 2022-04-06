@@ -18,15 +18,15 @@ export default function Home() {
       id: 2,
     },
     {
-      title: "Learn 3",
-      description: "Learn about Next.js in an interactive course with quizzes!",
-      href: "https://nextjs.org/learn",
+      title: "Login and Hidden Pages",
+      description: "Validate form, then see what's beyond.",
+      href: "https://login-hidepages.netlify.app/",
       id: 3,
     },
     {
-      title: "Learn 4",
-      description: "Learn about Next.js in an interactive course with quizzes!",
-      href: "https://nextjs.org/learn",
+      title: "Graphic Expenses",
+      description: "Filter data by year and month, dynamic change css on bar fill ",
+      href: "https://graphic-expenses.netlify.app/",
       id: 4,
     },
   ];
