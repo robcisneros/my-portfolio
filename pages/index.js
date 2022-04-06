@@ -6,15 +6,15 @@ import styles from "../styles/Home.module.css";
 export default function Home() {
   const HardData = [
     {
-      title: "Learn 1",
-      description: "Learn about Next.js in an interactive course with quizzes!",
-      href: "https://nextjs.org/learn",
+      title: "Working with CSS",
+      description: "A long layout full of information page about vaccination.",
+      href: "https://css-vaccination-practice.netlify.app/",
       id: 1,
     },
     {
-      title: "Learn 2",
-      description: "Learn about Next.js in an interactive course with quizzes!",
-      href: "https://nextjs.org/learn",
+      title: "API Pokedex and CSS",
+      description: "A challenge CSS practice using fetch Data to an API. ",
+      href: "https://my-pokedex-launchx.netlify.app/",
       id: 2,
     },
     {
