@@ -6,7 +6,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  background-color: #77002e;
+  background-color: black;
   padding: 0 10%;
 }
 
@@ -31,13 +31,7 @@
 .header a {
   text-decoration: none;
   font-size: 1.5rem;
-  color: #fcb8d2;
-}
-
-.header a:hover,
-.header a:active,
-.header a.active {
-  color: white;
+  
 }
 
 /*De 0px hasta max-width comportate así:  */
