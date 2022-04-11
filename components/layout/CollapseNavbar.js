@@ -3,7 +3,7 @@ import classes from "./CollapseNavbar.module.css";
 
 const CollapseNavbar = () => {
   return (
-    <Navbar collapseOnSelect expand="sm" bg="dark" variant="dark">
+    <Navbar collapseOnSelect expand="sm" bg="dark" variant="dark" fixed="top">
       <Container>
         <Navbar.Brand href="#home">My Portfolio</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
