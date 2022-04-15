@@ -29,6 +29,12 @@ export default function Home() {
       href: "https://graphic-expenses.netlify.app/",
       id: 4,
     },
+    {
+      title: "Medical E-Commerce",
+      description: "Medical e-shop using firebase as backend.",
+      href: "https://medical-ecommerce.netlify.app/",
+      id: 1,
+    },
   ];
 
   let content = <p>Found no projects.</p>;
