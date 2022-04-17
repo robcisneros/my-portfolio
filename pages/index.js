@@ -2,52 +2,23 @@ import Head from "next/head";
 import Image from "next/image";
 import GlassCard from "../components/UI/GlassCard";
 import styles from "../styles/Home.module.css";
+import ProjectsData from "../components/ProjectsData";
 
 export default function Home() {
-  const HardData = [
-    {
-      title: "Working with CSS",
-      description: "A long layout full of information page about vaccination.",
-      href: "https://css-vaccination-practice.netlify.app/",
-      id: 1,
-    },
-    {
-      title: "API Pokedex and CSS",
-      description: "A challenge CSS practice using fetch Data to an API. ",
-      href: "https://my-pokedex-launchx.netlify.app/",
-      id: 2,
-    },
-    {
-      title: "Login and Hidden Pages",
-      description: "Validate form, then see what's beyond.",
-      href: "https://login-hidepages.netlify.app/",
-      id: 3,
-    },
-    {
-      title: "Graphic Expenses",
-      description: "Filter data by year and month, dynamic change css on bar fill ",
-      href: "https://graphic-expenses.netlify.app/",
-      id: 4,
-    },
-    {
-      title: "Medical E-Commerce",
-      description: "Medical e-shop using firebase as backend.",
-      href: "https://medical-ecommerce.netlify.app/",
-      id: 1,
-    },
-  ];
+  const HardData = ProjectsData;
 
   let content = <p>Found no projects.</p>;
-
-  content = HardData.map((project) => (
-    <GlassCard
-      key={project.id}
-      id={project.id}
-      title={project.title}
-      description={project.description}
-      href={project.href}
-    />
-  ));
+  content = HardData.map((project, index) => {
+    return (
+      <GlassCard
+        key={project.id}
+        id={index+1}
+        title={project.title}
+        description={project.description}
+        href={project.href}
+      />
+    );
+  });
 
   return (
     <div className={styles.container}>
@@ -60,9 +31,7 @@ export default function Home() {
       <main className={styles.main}>
         <h1 className={styles.title}>Roberto Cisneros, React Dev</h1>
 
-        <div className={styles.grid}>
-          {content}
-        </div>
+        <div className={styles.grid}>{content}</div>
       </main>
 
       <footer className={styles.footer}>
@@ -73,7 +42,12 @@ export default function Home() {
         >
           Made it by Roberto Cisneros
           <span className={styles.logo}>
-            <Image src="/obenmed.svg" alt="Vercel Logo" width={30} height={30} />
+            <Image
+              src="/obenmed.svg"
+              alt="Vercel Logo"
+              width={30}
+              height={30}
+            />
           </span>
         </a>
       </footer>
