@@ -33,7 +33,7 @@ const ProjectsData = [
   {
     title: "Filtered Surgeries",
     description: "Search surgeries on each hospital by using MySQL DB.",
-    href: "https://filtered-surgeries.netlify.app/",
+    href: "https://surgeries.netlify.app/",
     id: 6,
   },
 ];
