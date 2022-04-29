@@ -1,4 +1,35 @@
-.justRigth{
-    display: flex;
-    align-items: flex-end;
+
+.linkscss a{
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    text-transform: uppercase;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.linkscss a:active,
+.linkscss a.active,
+.linkscss a:hover {
+  font-weight: 550;
+  background-color: rgba(245, 234, 234, 0.753);
+  color: #87A330;
+}
+
+@media (max-width: 600px) {
+  .navContainer ul li a {
+    font-size: 15px;
+  }
+  label.logo {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 560px) {
+  .linkscss a:active,
+  .linkscss a:hover {
+    background-color: rgba(158, 156, 156, 0.2);
+    font-weight: 550;
+  }
 }

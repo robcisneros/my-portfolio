@@ -3,6 +3,7 @@ import Image from "next/image";
 import GlassCard from "../components/UI/GlassCard";
 import styles from "../styles/Home.module.css";
 import ProjectsData from "../components/ProjectsData";
+import Name from "../components/Name";
 
 export default function Home() {
   const HardData = ProjectsData;
@@ -29,25 +30,18 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>Roberto Cisneros, React Dev</h1>
-
+        <Name />
         <div className={styles.grid}>{content}</div>
       </main>
 
       <footer className={styles.footer}>
         <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+          href="https://robcisneros.netlify.app/"
           target="_blank"
           rel="noopener noreferrer"
         >
           Made it by Roberto Cisneros
           <span className={styles.logo}>
-            <Image
-              src="/obenmed.svg"
-              alt="Vercel Logo"
-              width={30}
-              height={30}
-            />
           </span>
         </a>
       </footer>

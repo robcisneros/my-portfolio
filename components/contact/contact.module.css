@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  min-height: 200px;
+}
+.container a {
+  text-decoration: none;
+  color:black;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.reacticons {
+  color: #87a330;
+  font-size: 80px;
+  margin-bottom: 20px;
+}
+.iconContainer {
+  margin-bottom: 100px;
+}
+@media (min-width: 690px) {
+  .container {
+    width: 600px;
+    justify-content: space-between;
+  }
+}
