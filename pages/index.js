@@ -1,5 +1,5 @@
 import Head from "next/head";
-import Image from "next/image";
+import Footer from "../components/layout/Footer";
 import GlassCard from "../components/UI/GlassCard";
 import styles from "../styles/Home.module.css";
 import ProjectsData from "../components/ProjectsData";
@@ -13,7 +13,7 @@ export default function Home() {
     return (
       <GlassCard
         key={project.id}
-        id={index+1}
+        id={index + 1}
         title={project.title}
         description={project.description}
         href={project.href}
@@ -33,18 +33,7 @@ export default function Home() {
         <Name />
         <div className={styles.grid}>{content}</div>
       </main>
-
-      <footer className={styles.footer}>
-        <a
-          href="https://robcisneros.netlify.app/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Made it by Roberto Cisneros
-          <span className={styles.logo}>
-          </span>
-        </a>
-      </footer>
+      <Footer />
     </div>
   );
 }
