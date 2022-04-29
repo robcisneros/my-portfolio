@@ -18,13 +18,19 @@ const Contact = () => {
           </div>
           <div>MY GITHUB</div>
         </a>
-        <a>
+        <a
+          href="https://www.linkedin.com/in/roberto-cisneros-8a93aa189/"
+          target="_blank"
+          rel="noopener noreferrer">
           <div>
             <AiFillLinkedin className={classes.reacticons} />
           </div>
           <div>My Linked In</div>
         </a>
-        <a>
+        <a 
+          href="mailto:robertocisneroslp@gmail.com"
+          target="_blank"
+          rel="noopener noreferrer">
           <div>
             <MdMailOutline className={classes.reacticons} />
           </div>
