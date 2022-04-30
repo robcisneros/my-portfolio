@@ -1,4 +1,5 @@
 import { Fragment } from "react";
+import About from "../../components/about/About";
 import Footer from "../../components/layout/Footer";
 import Skills from "../../components/skills/Skills";
 
@@ -8,6 +9,7 @@ function SkillsPage() {
   return (
     <Fragment>
       <main className={styles.main}>
+        <About />
         <Skills />
       </main>
       <Footer />

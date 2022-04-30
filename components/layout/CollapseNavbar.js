@@ -5,7 +5,7 @@ import classes from "./CollapseNavbar.module.css";
 
 const CollapseNavbar = () => {
   return (
-    <Navbar collapseOnSelect expand="sm" bg="white" variant="dark" fixed="top">
+    <Navbar collapseOnSelect expand="sm" bg="white" fixed="top">
       <Container className={classes.linkscss}>
         <Link href="/" as={`/`}>
           My Portfolio

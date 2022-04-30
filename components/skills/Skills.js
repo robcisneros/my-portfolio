@@ -20,7 +20,7 @@ import Image from "next/image";
 const Skills = () => {
   return (
     <Fragment>
-      <h1> Skills!</h1>
+      <h2> Projects are made using:</h2>
       <div className={classes.container}>
         <div className={classes.imgcontainer}>
           <Image src={reactlogo} alt="react" width={60} height={60} />
