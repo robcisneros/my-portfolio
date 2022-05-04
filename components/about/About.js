@@ -2,7 +2,7 @@ import { Fragment } from "react";
 import classes from "./About.module.css";
 import Image from "next/image";
 import profilePic from "../../assets/profilepp.jpeg";
-import ButtonPDF from "../ButtonPDF/ButtonPDF";
+import ButtonPDF from "../buttonPDF/ButtonPDF";
 
 const About = () => {
   return (
