@@ -1,35 +1,25 @@
-
-.linkscss a{
-    text-decoration: none;
-    color: black;
-    font-size: 17px;
-    text-transform: uppercase;
-    padding: 7px 13px;
-    border-radius: 3px;
-    text-align: center;
+.linkscss a {
+  text-decoration: none;
+  color: black;
+  font-size: 17px;
+  text-transform: uppercase;
+  padding: 7px 13px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
 }
 
-.linkscss a:active,
-.linkscss a.active,
+.logo {
+  color: #87a330;
+  font-size: 17px;
+  text-transform: uppercase;
+  padding: 7px 13px;
+  
+}
+
 .linkscss a:hover {
-  font-weight: 550;
+  font-weight: bold;
   background-color: rgba(245, 234, 234, 0.753);
-  color: #87A330;
-}
-
-@media (max-width: 600px) {
-  .navContainer ul li a {
-    font-size: 15px;
-  }
-  label.logo {
-    font-size: 20px;
-  }
-}
-
-@media (max-width: 560px) {
-  .linkscss a:active,
-  .linkscss a:hover {
-    background-color: rgba(158, 156, 156, 0.2);
-    font-weight: 550;
-  }
 }

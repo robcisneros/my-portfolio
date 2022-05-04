@@ -1,0 +1,6 @@
+.mylink.isCurrentActive{
+    font-weight: bold;
+    color: #87a330;
+    background-color: rgba(158, 156, 156, 0.1);
+    border-radius: 10px;
+}

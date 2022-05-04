@@ -1,0 +1,9 @@
+.btnCV{
+    background-color: #87a330;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+}

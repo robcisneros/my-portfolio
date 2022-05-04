@@ -1,34 +1,35 @@
 import React from "react";
 import { Container, Nav, Navbar } from "react-bootstrap";
-import Link from "next/link";
 import classes from "./CollapseNavbar.module.css";
+import ActiveLink from "../ActiveLink"
 
 const CollapseNavbar = () => {
   return (
     <Navbar collapseOnSelect expand="sm" bg="white" fixed="top">
       <Container className={classes.linkscss}>
-        <Link href="/" as={`/`}>
+        <div className={classes.logo} >
           My Portfolio
-        </Link>
+        </div>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="justify-content-end" style={{ width: "100%" }}>
-          <Link href="/about" as={`/about`}>
+          <ActiveLink href="/about">
               About
-            </Link>
-            <Link href="/" as={`/`}>
+            </ActiveLink>
+            <ActiveLink href="/">
               All Projects
-            </Link>
-            <Link href="/skills" as={`/skills`}>
+            </ActiveLink>
+            <ActiveLink href="/skills">
               Skills
-            </Link>
-            <Link href="/contact" as={`/contact`}>
+            </ActiveLink>
+            <ActiveLink href="/contact">
               Contact
-            </Link>
+            </ActiveLink>
           </Nav>
         </Navbar.Collapse>
       </Container>
     </Navbar>
   );
 };
+
 export default CollapseNavbar;
