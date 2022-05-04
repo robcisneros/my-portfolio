@@ -1,20 +1,51 @@
+import { Fragment } from "react";
+import classes from "./About.module.css";
+import Image from "next/image";
+import profilePic from "../../assets/profilepp.jpeg";
+
 const About = () => {
-    return (
+  return (
+    <Fragment>
+      <h1>About me</h1>
+      <div className={classes.imgContainer}>
+        <Image src={profilePic} alt="profile-image" />
+      </div>
+      <div className={classes.content}>
+        <h2>
+          I&apos;m Roberto Cisneros, Web Developer and Biomedical Engineer.
+        </h2>
         <p>
-            Contrary to popular belief, Lorem Ipsum is not simply random text. 
-            It has roots in a piece of classical Latin literature from 45 BC,
-             making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia,
-              looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through
-               the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from
-                sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero,
-                 written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. 
-                 The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
-
-The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. 
-Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact 
-original form, accompanied by English versions from the 1914 translation by H. Rackham.
+          I am a javascript full stack developer with experience building web
+          applications.
         </p>
-    )
-}
+        <p>I studied biomedical engineer at Instituto Politécnico Nacional, Mexico City. 
+            I studied electronic engineer for six months abroad at Universidad Rey Juan Carlos, Madrid Spain.
+            Now, I&apos;m taking NodeJS course to improve my backend skills and stay learning IT. </p>
+        <p>
+          The aim of the projects I made are merge my knowledge on medical
+          service engineer with programming solutions based on my working
+          experience on hospital field.
+        </p>
+        <p>
+          I would like to be part of the medical transition into digital world,
+          developing useful and firendly apps that contribute to improve
+          healthcares.
+        </p>
+        <p>
+          Most of my projects are made using React library and NextJS framework,
+          that way I achieve a multipage application scence.
+        </p>
+        <p>
+          On backend side, I use both relational and non-relational database,
+          NodeJS and express for building server.
+        </p>
+        <p>
+          Databases are hosted on free clouds like Clever Cloud, Firebase and
+          MongoDB Atlas.
+        </p>
+      </div>
+    </Fragment>
+  );
+};
 
-export default About
+export default About;

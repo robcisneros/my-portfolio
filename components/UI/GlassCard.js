@@ -1,19 +1,25 @@
 import classes from "./GlassCard.module.css";
 import Link from "next/link";
+import Image from "next/image";
+import {IoIosRocket} from "react-icons/Io";
 
 const GlassCard = (props) => {
   return (
-    <Link href={props.href} passHref>
-      <a
-        target="_blank"
-        className={classes.card}
-      >
+      <div className={classes.card}>
         {props.children}
-
-        <h2>{props.title}</h2>
-        <p> {props.description} </p>
-      </a>
-    </Link>
+        <div className={classes.imgBx}>
+          <Image src={props.image} alt="imageproject" />
+        </div>
+        <div className={classes.content}>
+          <h2>{props.title}</h2>
+          <p> {props.description} </p>
+          <Link href={props.href} passHref>
+            <a target="_blank">
+            <button><IoIosRocket className={classes.reacticons}/> Visit Website</button>
+            </a>
+          </Link>
+        </div>
+      </div>
   );
 };
 

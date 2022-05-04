@@ -1,18 +1,17 @@
-import { Fragment } from "react";
 
 import Footer from "../../components/layout/Footer";
-import Skills from "../../components/skills/Skills";
+import About from "../../components/about/About";
 
 import styles from "../../styles/Home.module.css";
 
-function SkillsPage() {
+function AboutPage() {
   return (
-    <Fragment>
+    <div className={styles.container}>
       <main className={styles.main}>
-        <Skills />
+        <About />
       </main>
       <Footer />
-    </Fragment>
+    </div>
   );
 }
-export default SkillsPage;
+export default AboutPage;

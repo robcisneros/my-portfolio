@@ -13,6 +13,9 @@ const CollapseNavbar = () => {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="justify-content-end" style={{ width: "100%" }}>
+          <Link href="/about" as={`/about`}>
+              About
+            </Link>
             <Link href="/" as={`/`}>
               All Projects
             </Link>
