@@ -1,7 +1,7 @@
 import classes from "./GlassCard.module.css";
 import Link from "next/link";
 import Image from "next/image";
-import {IoIosRocket} from "react-icons/Io";
+import {IoIosRocket} from "react-icons/io";
 
 const GlassCard = (props) => {
   return (
