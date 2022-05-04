@@ -1,5 +1,6 @@
-import Head from "next/head";
+
 import Footer from "../components/layout/Footer";
+import Header from "../components/layout/Header";
 import GlassCard from "../components/UI/GlassCard";
 import styles from "../styles/Home.module.css";
 import ProjectsData from "../components/ProjectsData";
@@ -33,12 +34,7 @@ export default function Home() {
 
   return (
     <div className={styles.container}>
-      <Head>
-        <title>Roberto Cisneros React Dev</title>
-        <meta name="description" content="Roberto Cisneros portfolio" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
+      <Header />
       <main className={styles.main}>
         <Name />
         <div className={styles.grid}>{content}</div>
