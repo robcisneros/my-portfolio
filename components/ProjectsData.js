@@ -55,6 +55,12 @@ const ProjectsData = [
     href: "https://filtered-users-table.netlify.app/",
     id: 9,
   },
+  {
+    title: "Validation Form",
+    description: "CSS dinamically styled bases on validation sate of input fields.",
+    href: "https://validation-stylingcss-form.netlify.app/",
+    id: 10,
+  },
 ];
 
 export default ProjectsData;
