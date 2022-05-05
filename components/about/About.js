@@ -2,7 +2,6 @@ import { Fragment } from "react";
 import classes from "./About.module.css";
 import Image from "next/image";
 import profilePic from "../../assets/profilepp.jpeg";
-import ButtonPDF from "../buttonPDF/ButtonPDF";
 
 const About = () => {
   return (
@@ -46,7 +45,6 @@ const About = () => {
         </p>
         <p>Happy hacking!</p>
       </div>
-      <ButtonPDF />
     </Fragment>
   );
 };
