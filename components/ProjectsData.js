@@ -57,7 +57,7 @@ const ProjectsData = [
   },
   {
     title: "Validation Form",
-    description: "CSS dinamically styled bases on validation sate of input fields.",
+    description: "CSS dinamically styled bases on validation state of input fields.",
     href: "https://validation-stylingcss-form.netlify.app/",
     id: 10,
   },
