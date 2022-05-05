@@ -37,6 +37,24 @@ const ProjectsData = [
     href: "https://hospitalsurgeries.netlify.app/",
     id: 6,
   },
+  {
+    title: "Custom Hooks",
+    description: "Avoid repet code and concatenate tasks.",
+    href: "https://custom-hooks-concatenate.netlify.app/",
+    id: 7,
+  },
+  {
+    title: "GET POST Movies",
+    description: "API fetch practice.",
+    href: "https://movies-getpost-fetch.netlify.app/",
+    id: 8,
+  },
+  {
+    title: "Filtered users",
+    description: "Filtered on change event input field",
+    href: "https://filtered-users-table.netlify.app/",
+    id: 9,
+  },
 ];
 
 export default ProjectsData;

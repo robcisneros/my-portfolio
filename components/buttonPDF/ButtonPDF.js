@@ -5,9 +5,10 @@ import classes from "./ButtonPDF.module.css"
 const ButtonPDF = () =>{
     return(
         <a
+        target="_blank"
         className={classes.btnCV}
         download="robcisnerosCV.pdf"
-        href="../../assets/myCV.pdf"
+        href="./assets/myCV.pdf"
         >Download CV
         </a>
     )
