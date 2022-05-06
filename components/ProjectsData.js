@@ -79,6 +79,12 @@ const ProjectsData = [
     href: "https://routing-mpa-react.netlify.app/quotes",
     id: 13,
   },
+  {
+    title: "Token authentication",
+    description: "Login with a user and token generated on firebase backend.",
+    href: "https://authentication-by-token.netlify.app/",
+    id: 14,
+  },
 ];
 
 export default ProjectsData;
