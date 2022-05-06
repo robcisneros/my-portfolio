@@ -67,6 +67,12 @@ const ProjectsData = [
     href: "https://slicing-redux.netlify.app/",
     id: 11,
   },
+  {
+    title: "Cart Shop Redux",
+    description: "Add and delete cart items, orders on a backend and variables on Redux.",
+    href: "https://cart-redux-notification.netlify.app/",
+    id: 12,
+  },
 ];
 
 export default ProjectsData;
