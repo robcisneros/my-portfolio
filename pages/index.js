@@ -17,6 +17,7 @@ import imageProject9 from "../assets/p9-filteredUsers.png";
 import imageProject10 from "../assets/p10-validationCSS.png";
 import imageProject11 from "../assets/p11-redux-slicers.png";
 import imageProject12 from "../assets/p12-cart-redux.png";
+import imageProject13 from "../assets/p13-react-routing-MPA.png";
 
 export default function Home() {
   const HardData = ProjectsData;
@@ -33,6 +34,7 @@ export default function Home() {
     imageProject10,
     imageProject11,
     imageProject12,
+    imageProject13,
   ];
 
   let content = <p>Found no projects.</p>;

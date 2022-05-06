@@ -73,6 +73,12 @@ const ProjectsData = [
     href: "https://cart-redux-notification.netlify.app/",
     id: 12,
   },
+  {
+    title: "React routing",
+    description: "Using URL query to routing into pages,sorting data from a backend.",
+    href: "https://routing-mpa-react.netlify.app/quotes",
+    id: 13,
+  },
 ];
 
 export default ProjectsData;
