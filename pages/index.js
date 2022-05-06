@@ -15,6 +15,7 @@ import imageProject7 from "../assets/p7-taskconcat.png";
 import imageProject8 from "../assets/p8-getpostmovies.png";
 import imageProject9 from "../assets/p9-filteredUsers.png";
 import imageProject10 from "../assets/p10-validationCSS.png";
+import imageProject11 from "../assets/p11-redux-slicers.png";
 
 export default function Home() {
   const HardData = ProjectsData;
@@ -29,6 +30,7 @@ export default function Home() {
     imageProject8,
     imageProject9,
     imageProject10,
+    imageProject11,
   ];
 
   let content = <p>Found no projects.</p>;

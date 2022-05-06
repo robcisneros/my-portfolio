@@ -61,6 +61,12 @@ const ProjectsData = [
     href: "https://validation-stylingcss-form.netlify.app/",
     id: 10,
   },
+  {
+    title: "Redux Slicers",
+    description: "Manage a redux store using slicers.",
+    href: "https://slicing-redux.netlify.app/",
+    id: 11,
+  },
 ];
 
 export default ProjectsData;
