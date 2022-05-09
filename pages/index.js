@@ -19,6 +19,7 @@ import imageProject11 from "../assets/p11-redux-slicers.png";
 import imageProject12 from "../assets/p12-cart-redux.png";
 import imageProject13 from "../assets/p13-react-routing-MPA.png";
 import imageProject14 from "../assets/p14-token-login-authentication.png";
+import imageProject15 from "../assets/p15-creditCard.png";
 
 export default function Home() {
   const HardData = ProjectsData;
@@ -37,6 +38,7 @@ export default function Home() {
     imageProject12,
     imageProject13,
     imageProject14,
+    imageProject15,
   ];
 
   let content = <p>Found no projects.</p>;
