@@ -86,7 +86,7 @@ const ProjectsData = [
     id: 14,
   },
   {
-    title: "Unit testing on form",
+    title: "Validation form",
     description: "Input fields with feedback validation styles, every component has its unit testing.",
     href: "https://creditcard-form.netlify.app/",
     id: 15,
