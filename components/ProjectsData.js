@@ -76,7 +76,7 @@ const ProjectsData = [
   {
     title: "React routing",
     description: "Using URL query to routing into pages,sorting data from a backend.",
-    href: "https://routing-mpa-react.netlify.app/quotes",
+    href: "https://routing-mpa-react.netlify.app/",
     id: 13,
   },
   {
