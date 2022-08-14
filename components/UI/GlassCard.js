@@ -13,11 +13,18 @@ const GlassCard = (props) => {
         <div className={classes.content}>
           <h2>{props.title}</h2>
           <p> {props.description} </p>
-          <Link href={props.href} passHref>
-            <a target="_blank">
-            <button><IoIosRocket className={classes.reacticons}/> Visit Website</button>
-            </a>
-          </Link>
+          <div className={classes.actionbuttons}>
+            <Link href={props.href} passHref>
+              <a target="_blank">
+              <button><IoIosRocket className={classes.reacticons}/> Website</button>
+              </a>
+            </Link>
+            <Link href={props.repository} passHref>
+              <a target="_blank">
+              <button><IoIosRocket className={classes.reacticons}/> Repo</button>
+              </a>
+            </Link>
+          </div>
         </div>
       </div>
   );

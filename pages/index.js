@@ -51,6 +51,7 @@ export default function Home() {
         title={project.title}
         description={project.description}
         href={project.href}
+        repository={project.repository}
         image={projectImages[index]}
       />
     );

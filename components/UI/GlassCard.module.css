@@ -55,8 +55,16 @@
   padding-left: 5px;
   padding-right: 5px;
 }
-
-.content button{
+.actionbuttons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.actionbuttons a{
+  display: flex;
+  text-decoration: none;
+}
+.actionbuttons button{
   background-color: black;
   color: white;
   border: none;
