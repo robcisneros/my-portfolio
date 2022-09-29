@@ -15,12 +15,12 @@ const About = () => {
           I&apos;m Roberto Cisneros, Web Developer and Biomedical Engineer.
         </h2>
         <p>
-          I am a javascript full stack developer with experience building web
+          I am a javascript frontend developer with experience building web
           applications.
         </p>
         <p>I studied biomedical engineer at Instituto Politécnico Nacional in Mexico City. 
             I studied electronics engineer for six months abroad at Universidad Rey Juan Carlos in Madrid Spain.
-            Now, I&apos;m taking NodeJS course to improve my backend skills and continue learning tech. </p>
+            Now, I&apos;m taking NodeJS and Java courses to improve my backend skills and continue learning tech. </p>
         <p>
           The aim of the projects I made is to merge my knowledge on medical
           service engineer with programming solutions based on my working
